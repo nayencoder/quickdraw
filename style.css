@@ -1,0 +1,62 @@
+body
+{
+background-color: plum;
+
+
+}
+
+h1
+{
+    color:blue;
+    background-color:cornsilk;
+}
+
+#show_sketch,#timer
+{
+    float:right;
+}
+#score
+{
+    float:left;
+}
+
+
+canvas
+{
+    border:10px solid purple;
+    border-radius:20px;
+    animation-name:example;
+    animation-duration:2s;
+    margin-top:50px;
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes example 
+{
+
+    from{box-shadow:50px 50px 100px palevioletred }
+    to{box-shadow:5px 5px 50px yellow}
+
+}
+
+p
+{
+
+padding-top: 20px;
+padding-bottom: 20px;
+font-size:25px;
+
+}
+
+
+
+
+    
+
+
+
+
+
+
+
